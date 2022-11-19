@@ -5,7 +5,16 @@
 
 class Button {
 public:
-	Button(std::string btnText, sf::Vector2f buttonSize, int charSize, sf::Color bgColor, sf::Color textColor, sf::Font& textFont);
+	Button();
+
+	Button(
+		std::string text,
+		sf::Vector2f buttonSize,
+		int fontSize,
+		sf::Color backgroundColor,
+		sf::Color textColor,
+		sf::Font& font
+	);
 
 	void setFont(sf::Font& fonts);
 

@@ -141,6 +141,7 @@
     <ClInclude Include="components\Plate\Plate.h" />
     <ClInclude Include="components\Textbox\Textbox.h" />
     <ClInclude Include="components\Minesweaper\Minesweaper.h" />
+    <ClInclude Include="misc\constants.h" />
     <ClInclude Include="misc\enums.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

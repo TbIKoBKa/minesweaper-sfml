@@ -1,12 +1,29 @@
 #include "Textbox.h"
 
-Textbox::Textbox(sf::Vector2f boxSize, int fontSize, sf::Color bgColor, sf::Color textColor, sf::Font& font, bool sel) {
+Textbox::Textbox() {
+	width = 0;
+	height = 0;
+}
+
+Textbox::Textbox(
+	sf::Vector2f boxSize, 
+	int fontSize, 
+	sf::Color backgroundColor, 
+	sf::Color outlineColor, 
+	sf::Color textColor, 
+	int outlineSize, 
+	sf::Font& font, 
+	bool defaultSelected
+) {
 	box.setSize(boxSize);
-	box.setFillColor(bgColor);
+	box.setFillColor(backgroundColor);
+	box.setOutlineColor(outlineColor);
+	box.setOutlineThickness(outlineSize);
+
 	textbox.setCharacterSize(fontSize);
 	textbox.setFillColor(textColor);
 	textbox.setFont(font);
-	isSelected = sel;
+	isSelected = defaultSelected;
 
 	width = boxSize.x;
 	height = boxSize.y;
@@ -90,10 +107,10 @@ void Textbox::typedOn(sf::Event input) {
 }
 
 bool Textbox::isMouseOver(sf::RenderWindow& window) {
-	int mouseX = sf::Mouse::getPosition(window).x;
-	int mouseY = sf::Mouse::getPosition(window).y;
+	sf::Vector2i pixelPos = sf::Mouse::getPosition(window);
+	sf::Vector2f pos = window.mapPixelToCoords(pixelPos);
 
-	if (box.getGlobalBounds().contains(mouseX, mouseY)) {
+	if (box.getGlobalBounds().contains(pos.x, pos.y)) {
 		return true;
 	}
 	return false;

@@ -1,21 +1,33 @@
 #include "Button.h"
 
-Button::Button(std::string btnText, sf::Vector2f buttonSize, int charSize, sf::Color bgColor, sf::Color textColor, sf::Font& textFont) {
+Button::Button() {
+	btnHeight = 0;
+	btnWidth = 0;
+}
+
+Button::Button(
+	std::string textButton,
+	sf::Vector2f buttonSize,
+	int fontSize,
+	sf::Color backgroundColor,
+	sf::Color textColor,
+	sf::Font& font
+) {
 	button.setSize(buttonSize);
-	button.setFillColor(bgColor);
+	button.setFillColor(backgroundColor);
 
 	// Get these for later use:
 	btnWidth = buttonSize.x;
 	btnHeight = buttonSize.y;
 
-	text.setString(btnText);
-	text.setCharacterSize(charSize);
+	text.setString(textButton);
+	text.setCharacterSize(fontSize);
 	text.setFillColor(textColor);
-	text.setFont(textFont);
+	text.setFont(font);
 }
 
-void Button::setFont(sf::Font& fonts) {
-	text.setFont(fonts);
+void Button::setFont(sf::Font& font) {
+	text.setFont(font);
 }
 
 void Button::setBackColor(sf::Color color) {
@@ -41,10 +53,10 @@ void Button::drawTo(sf::RenderWindow& window) {
 }
 
 bool Button::isMouseOver(sf::RenderWindow& window) {
-	int mouseX = sf::Mouse::getPosition(window).x;
-	int mouseY = sf::Mouse::getPosition(window).y;
+	sf::Vector2i pixelPos = sf::Mouse::getPosition(window);
+	sf::Vector2f pos = window.mapPixelToCoords(pixelPos);
 
-	if (button.getGlobalBounds().contains(mouseX, mouseY)) {
+	if (button.getGlobalBounds().contains(pos.x, pos.y)) {
 		return true;
 	}
 	return false;

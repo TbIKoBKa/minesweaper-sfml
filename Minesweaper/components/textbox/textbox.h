@@ -11,7 +11,18 @@
 
 class Textbox {
 public:
-	Textbox(sf::Vector2f boxSize, int fontSize, sf::Color bgColor, sf::Color textColor, sf::Font& font, bool sel);
+	Textbox();
+
+	Textbox(
+		sf::Vector2f boxSize, 
+		int fontSize, 
+		sf::Color backgroundColor,
+		sf::Color outlineColor, 
+		sf::Color textColor,
+		int outlineSize,
+		sf::Font& font, 
+		bool defaultSelected
+	);
 
 	void setFont(sf::Font& fonts);
 
