@@ -10,9 +10,4 @@ public:
 	bool isMarked;
 	bool isBomb;
 	int nBombs;
-
-	~Plate()
-	{
-		;
-	}
 };

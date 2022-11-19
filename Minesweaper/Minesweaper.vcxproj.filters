@@ -18,21 +18,33 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="components\Minesweaper\Minesweaper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Button\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="components\Textbox\Textbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="components\button\button.h">
+    <ClInclude Include="components\Button\Button.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="components\textbox\textbox.h">
+    <ClInclude Include="components\Textbox\Textbox.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="components\plate\plate.h">
+    <ClInclude Include="components\Plate\Plate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="misc\enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="components\Minesweaper\Minesweaper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

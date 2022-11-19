@@ -1,49 +1,51 @@
-﻿  main.cpp
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(13,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+﻿  Button.cpp
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Button\Button.cpp(8,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(14,25): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Button\Button.cpp(9,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(53,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Button\Button.cpp(47,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(53,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Button\Button.cpp(47,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(22,18): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+  Textbox.cpp
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Textbox\Textbox.cpp(11,17): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(23,19): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Textbox\Textbox.cpp(12,18): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(39,132): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Textbox\Textbox.cpp(27,131): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(108,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Textbox\Textbox.cpp(96,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(108,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\Textbox\Textbox.cpp(96,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
+  main.cpp
 C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(17,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
@@ -118,4 +120,6 @@ C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(444,40): warning
           [
               T=float
           ]
+  Minesweaper.cpp
+  Generating Code...
   Minesweaper.vcxproj -> C:\Users\TbIKoBKa\source\repos\Minesweaper\x64\Debug\Minesweaper.exe

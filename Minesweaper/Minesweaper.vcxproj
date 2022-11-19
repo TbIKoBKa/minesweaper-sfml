@@ -128,15 +128,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="components\Button\Button.cpp" />
+    <ClCompile Include="components\Textbox\Textbox.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="components\Minesweaper\Minesweaper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="components\button\button.h" />
-    <ClInclude Include="components\plate\plate.h" />
-    <ClInclude Include="components\textbox\textbox.h" />
+    <ClInclude Include="components\Button\Button.h" />
+    <ClInclude Include="components\Plate\Plate.h" />
+    <ClInclude Include="components\Textbox\Textbox.h" />
+    <ClInclude Include="components\Minesweaper\Minesweaper.h" />
     <ClInclude Include="misc\enums.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
