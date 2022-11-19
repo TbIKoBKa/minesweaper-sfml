@@ -1,37 +1,120 @@
 ﻿  main.cpp
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(25,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(13,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(27,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(14,25): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(31,78): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(53,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(31,57): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\button\button.h(53,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(45,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(52,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(105,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(105,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(147,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(383,72): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(22,18): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(383,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(23,19): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(39,132): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(108,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\components\textbox\textbox.h(108,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(17,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(17,24): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(30,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(30,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(69,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(121,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(132,59): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(132,45): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(155,79): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(155,57): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(158,81): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(158,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(169,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(176,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(218,67): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(218,49): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(444,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\TbIKoBKa\source\repos\Minesweaper\Minesweaper\main.cpp(444,40): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
           [
               T=float
           ]
